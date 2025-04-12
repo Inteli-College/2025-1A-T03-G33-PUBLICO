@@ -61,15 +61,18 @@ Rede Gazeta, one of the leading communication groups in Espírito Santo, faces s
 
 ### 1.1 Project Objective
 
-The Dynamic Pricing with AI project, developed in partnership with Rede Gazeta, aims to create an intelligent and automated solution for dynamic pricing of advertising spaces on the group's radio stations. The proposal involves using predictive models based on machine learning to adjust advertising insertion prices in real-time, taking into account factors such as occupancy history, seasonality, projected demand, and external market variables.
+The Dynamic Pricing with AI project, developed in partnership with Rede Gazeta, aims to create an intelligent and automated solution for dynamic pricing of advertising spaces on the group's radio stations. The proposal involves using predictive models based on machine learning to adjust advertising insertion prices in real-time, taking into account factors such as occupancy history, seasonality, projected demand, and external market variables. 
+
 With this, it is expected not only to optimize the occupancy of the advertising inventory but also to provide greater agility to the commercial team, offer more competitive conditions to advertisers, and increase Rede Gazeta's revenue. In the long term, the solution may also be integrated with other channels of the group, such as television, newspapers, and digital media, expanding the strategic impact of the proposal.
 
 ### 1.2 Problem Contextualization
-Traditional pricing of media spaces at Rede Gazeta is predominantly fixed, not taking into account demand fluctuations over time, specific seasonality (such as high season on the coast or elections), or changes in advertiser behavior. This rigidity negatively impacts the profitability of the operation, as it results in idle spaces during periods of low demand and undervaluation during periods of high demand.
+Traditional pricing of media spaces at Rede Gazeta is predominantly fixed, not taking into account demand fluctuations over time, specific seasonality (such as high season on the coast or elections), or changes in advertiser behavior. This rigidity negatively impacts the profitability of the operation, as it results in idle spaces during periods of low demand and undervaluation during periods of high demand. 
+
 At the same time, there is a cultural and operational challenge: many advertisers and team members are accustomed to traditional negotiation practices and may resist the adoption of automated technologies. This resistance, coupled with the technological complexity of the proposed solution, required a period fully dedicated to a deep understanding of the business, involved users, and the commercial rules governing the current company model.
 
 ### 1.3 Approach and Methodology Used
-To establish a solid foundation that would guide technical development in the following modules, Module 1 adopted an approach centered on a deep understanding of the business and its users, using the agile Scrum methodology, divided into five bi-weekly sprints. The focus was on creating strategic artifacts that would map the main variables of the problem, understand the internal processes of the company, define the involved actors, and explore the opportunities and threats of the advertising market.
+To establish a solid foundation that would guide technical development in the following modules, Module 1 adopted an approach centered on a deep understanding of the business and its users, using the agile Scrum methodology, divided into five bi-weekly sprints. The focus was on creating strategic artifacts that would map the main variables of the problem, understand the internal processes of the company, define the involved actors, and explore the opportunities and threats of the advertising market. 
+
 Throughout the module, we held frequent discussions with a representative from the Rede Gazeta team, who provided valuable information about the current sales model and the main challenges faced by the commercial team. These meetings were crucial to ensure alignment between the solution proposal and the operational reality of the company, as well as to validate hypotheses raised during the artifact construction.
 The deliverables were organized into three main axes:
 
@@ -129,25 +132,26 @@ Despite some scope adjustments throughout the module, the overall schedule was s
 
 ### 2.3 Assumptions and Constraints 
 During the planning stage, several assumptions were defined to guide strategic decisions:
-The solution will be based on machine learning models capable of performing real-time pricing.
-Historical data on inventory occupancy and pricing would be available for analysis.
-The team would have access to Rede Gazeta's commercial and technical team for continuous alignment.
-The solution must comply with regulatory guidelines, especially concerning LGPD (General Data Protection Law).
-
+- The solution will be based on machine learning models capable of performing real-time pricing.
+- Historical data on inventory occupancy and pricing would be available for analysis.
+- The team would have access to Rede Gazeta's commercial and technical team for continuous alignment.
+- The solution must comply with regulatory guidelines, especially concerning LGPD (General Data Protection Law).
 
 Among the constraints, the following stand out:
-The total time for module execution was 10 weeks, with bi-weekly sprints.
-The use of data is restricted to internal company sources and public databases.
-Deliverables must be validated with the advisor before implementation.
-The team does not work full-time on the project, balancing deliverables with other curricular and internship activities.
+- The total time for module execution was 10 weeks, with bi-weekly sprints.
+- The use of data is restricted to internal company sources and public databases.
+- Deliverables must be validated with the advisor before implementation.
+- The team does not work full-time on the project, balancing deliverables with other curricular and internship activities.
 
 
 ### 2.4 Alignment with the Partner 
-Throughout the module, the team maintained frequent contact with a representative from Rede Gazeta, which enabled a better understanding of the internal workings of the company and the challenges faced by the commercial team. These conversations provided valuable insights into the current pricing process, the internal systems in operation, and the real challenges faced in negotiating advertising spaces.
+Throughout the module, the team maintained frequent contact with a representative from Rede Gazeta, which enabled a better understanding of the internal workings of the company and the challenges faced by the commercial team. These conversations provided valuable insights into the current pricing process, the internal systems in operation, and the real challenges faced in negotiating advertising spaces. 
+
 Although access to technical data has not yet been possible in this first module, the partner has shown interest in continuing to contribute to the project, especially in the more technical phases planned for the next cycles. The relationship established from the beginning proved essential to ensure alignment between what was developed by the team and the real expectations of Rede Gazeta.
 
 ## 3. Understanding the Business and Users 
-Module 1 focused on deepening the understanding of the Rede Gazeta ecosystem, aiming to comprehend the different user profiles interacting with the pricing process and the challenges each faces. To achieve this, the team developed personas, antipersonas, mapped the user journey, and developed user stories based on identified pains and objectives.
+Module 1 focused on deepening the understanding of the Rede Gazeta ecosystem, aiming to comprehend the different user profiles interacting with the pricing process and the challenges each faces. To achieve this, the team developed personas, antipersonas, mapped the user journey, and developed user stories based on identified pains and objectives. 
+
 This stage was crucial to ensure that the proposed solution truly aligns with the business needs, not just the technical aspects. Understanding the users provided valuable inputs for defining the value proposition, priority system features, and success criteria for the future application.
 
 ### 3.1 Personas 
@@ -405,18 +409,18 @@ Finally, this module aimed primarily at the strategic structuring of the dynamic
 
 ### 6.2 Main Challenges 
 During the module, the team faced several challenges that required flexibility and replanning:
-- Access to the company's historical data, initially scheduled for the last sprint, was not possible within the established timeframe, which prevented the start of exploratory analysis and technical architecture with real data;
-- Alignment between the ideal scope and the available time, especially concerning the depth of strategic analyses, which required more in-depth investigation than anticipated;
-- Balancing academic and professional responsibilities, as team members also balanced the project with internship activities and other curricular demands. However, these challenges were met with organization, cooperation, and constant realignment with the advisor, ensuring that the quality of work was preserved.
+- **Access to the company's historical data**, initially scheduled for the last sprint, was not possible within the established timeframe, which prevented the start of exploratory analysis and technical architecture with real data;
+- **Alignment between the ideal scope and the available time**, especially concerning the depth of strategic analyses, which required more in-depth investigation than anticipated;
+- **Balancing academic and professional responsibilities**, as team members also balanced the project with internship activities and other curricular demands. However, these challenges were met with organization, cooperation, and constant realignment with the advisor, ensuring that the quality of work was preserved.
 
 
 ### 6.3 Lessons Learned 
 The module was particularly valuable for the team's maturation in terms of:
 
-- Business understanding oriented towards solution, comprehending not just the company's operations but also the interests and resistances of internal users;
-- The importance of planning strategic deliveries before technical ones, allowing for greater alignment and accuracy in future development;
-- Collaborative work with a real division of responsibilities, where each member contributed specific and complementary deliverables, without being restricted to rigid roles;
-- Valuing constant communication with the partner, even in scenarios of uncertainty.
+- **Business understanding oriented towards solution**, comprehending not just the company's operations but also the interests and resistances of internal users;
+- **The importance of planning strategic deliveries before technical ones**, allowing for greater alignment and accuracy in future development;
+- **Collaborative work with a real division of responsibilities**, where each member contributed specific and complementary deliverables, without being restricted to rigid roles;
+- **Valuing constant communication with the partner**, even in scenarios of uncertainty.
 
 
 ### 6.4 Preparation for the Second Module With a solid foundation in hand, the project is ready to move to Module 2, which will focus on the technical development of the solution. The next phase will include:
