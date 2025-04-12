@@ -15,3 +15,4 @@ This project aims to implement a dynamic pricing system to optimize the occupanc
 - <a href="https://www.linkedin.com/in/izabellafaria/">Izabella Faria</a>
 - <a href="https://www.linkedin.com/in/liviapcoutinho/">Livia Coutinho</a>
 - <a href="https://www.linkedin.com/in/mariana-silva-paula/">Mariana de Paula</a>
+- <a href="https://www.linkedin.com/in/mateus-neves-3b767123b/">Mateus Neves</a>
