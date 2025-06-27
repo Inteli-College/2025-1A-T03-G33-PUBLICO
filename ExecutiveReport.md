@@ -1,3 +1,58 @@
+# Inteli - Instituto de Tecnologia e Liderança 
+
+<p align="center">
+<a href= "https://www.inteli.edu.br/"><img src="https://github.com/2023M7T3-Inteli/Projeto3/blob/main/assets/imagens/Inteli.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0" width=40% height=40%></a>
+</p>
+
+# Public Report - Rede Gazeta
+
+**Group:** Izabella Faria, Livia Coutinho,  Mariana de Paula and Mateus Neves <br>
+**Partner:** Rede Gaveta <br>
+**Trilha:** Corporate 
+
+<br>
+
+
+<br>
+
+# Summary
+
+### 1. Introduction 
+**1.1 Project Objective** <br>
+**1.2 Problem Contextualization**  <br>
+**1.3 Approach and Methodology Used**  <br>
+
+### 2. Project Planning and Structure 
+**2.1 Team and Roles**  <br>
+**2.2 Sprint Roadmap**  <br>
+**2.3 Alignment with the Partner** <br>
+
+### 3. Data Governance
+**3.1 Policies Adopted**  <br>
+**3.2 Structure and Documentation**  <br>
+**3.3 Data Quality Evaluations**  <br>
+
+### 4. Data Processing and Analysis <br>
+
+### 5. ETL Pipeline
+**5.1 Structure**  <br>
+**5.2 Extraction**  <br>
+**5.3 Transformation**  <br>
+**5.4 Loading**  <br>
+
+### 6. System Architecture
+**6.1 Initial Design and Decisions**  <br>
+**6.2 Cloud Integration (Focus on AWS)**  <br>
+**6.3 Scalability and Modularity**  <br>
+
+### 7. Learning and adjustments
+**7.1 Challenges Encountered**  <br>
+**7.2 Adaptations Made**  <br>
+
+### 8. Next Steps / Module 3 Preview
+
+<br>
+
 # 1. Introduction
 
 Rede Gazeta, one of the leading communication groups in Espírito Santo, faces significant challenges in pricing its advertising spaces in the radio environment. The current model shows little flexibility to accommodate seasonal variations, demand fluctuations, and external factors that directly influence inventory occupancy. This limitation can lead to revenue losses, idle media spaces, and difficulty in offering more competitive commercial conditions for different advertiser profiles.
@@ -162,9 +217,9 @@ The architecture was intentionally structured with modularity in mind:
 
 This modular, loosely-coupled design not only supports easier maintenance but also allows for iterative development — integrating new models, external APIs, or analytics dashboards with minimal rework.
 
-# 8. Learnings and Adjustments
+# 7. Learnings and Adjustments
 
-## 8.1 Challenges Encountered
+## 7.1 Challenges Encountered
 
 Throughout the second phase of the project, we faced several practical and technical challenges that required flexibility and strategic problem-solving:
 
@@ -172,7 +227,7 @@ Throughout the second phase of the project, we faced several practical and techn
 - **Heterogeneity and Inconsistency in Data**: The structure of advertising insertion records varied across files, requiring extensive normalization efforts during the transformation stage.  
 - **Absence of a Centralized Data Source**: Without a data lake or centralized system from the client, automated ingestion had to rely on local directory traversal and preprocessing logic tailored to ad-hoc Excel and CSV files.
 
-## 8.2 Adaptations Made
+## 7.2 Adaptations Made
 
 To address these challenges and ensure continued progress:
 
@@ -181,7 +236,7 @@ To address these challenges and ensure continued progress:
 - To mitigate the lack of structured cloud infrastructure, we simulated key AWS components (e.g., storage, orchestration, model serving) to define a modular and scalable architecture that can be deployed when cloud access is granted.  
 - Additional effort was invested in producing documentation and architectural designs, anticipating a seamless transition to production environments in the future.
 
-## 8.3 Insights Gained
+## 7.3 Insights Gained
 
 This module provided significant insights, both technical and strategic:
 
@@ -201,5 +256,4 @@ The next module will concentrate on delivering the core intelligence of the syst
 - **Model Development**: Training, validation, and deployment of forecasting models and the pricing engine, using the cleaned and structured dataset prepared in this module.  
 - **Integration of Pricing Engine**: Incorporating the dynamic pricing logic into a modular architecture that allows for future experimentation and adjustments based on user feedback and business objectives.  
 - **API and Front-End Planning**: Designing and starting the implementation of user-facing components, particularly the API for serving recommendations and the interface for monitoring results, supporting decision-making by the commercial team.
-
 
